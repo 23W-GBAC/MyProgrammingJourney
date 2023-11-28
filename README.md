@@ -1,5 +1,5 @@
 ## A Journey Into Progamming
 
-#First steps to take
+First steps to take
 
 Downloading stuff
