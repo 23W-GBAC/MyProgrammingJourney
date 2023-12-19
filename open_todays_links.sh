@@ -2,6 +2,8 @@
 
 # This script opens links of resources that I use each day. It is based on ECRI Schedule (HI-1), but manually made. Run 'chmod +x open_todays_links.sh' to make this file executable.
 
+link0="https://webmail.th-deg.de/4e4MFLGEbtoejgFf/?_task=mail&_mbox=INBOX"
+
 # Get the current day of the week
 day=$(date +%A)
 
@@ -39,4 +41,4 @@ case $day in
 esac
 
 # Open the links in Microsoft Edge
-cmd.exe /c start microsoft-edge:"$link1" "$link2" "$link3"
+cmd.exe /c start microsoft-edge:"$link0" "$link1" "$link2" "$link3"
