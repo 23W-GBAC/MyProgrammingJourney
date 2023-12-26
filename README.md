@@ -1,11 +1,11 @@
 # A "Retroactive" Journey Into Progamming
 ---
-## Intro
+## 0. Intro
 ---
-## My first Automation Project
+## 4. My first Automation Project
 
-## I kinda get it now!
+## 3. I kinda get it now!
 
-## First steps to take
+## 2. First steps to take (Settings)
 
-## Downloading/Installing/Setting stuff
+## 1. Downloading/Installing stuff
