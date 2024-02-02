@@ -9,8 +9,8 @@ link0="https://webmail.th-deg.de/4e4MFLGEbtoejgFf/?_task=mail&_mbox=INBOX"
 day=$(date +%A)
 
 # Loop through each day for testing
-for day in "Monday" "Tuesday" "Wednesday" "Thursday" "Friday"; do
-	echo "Testing links for $day"
+#for day in "Monday" "Tuesday" "Wednesday" "Thursday" "Friday"; do
+#	echo "Testing links for $day"
 
 
 	# Define links based on the day
@@ -48,5 +48,5 @@ for day in "Monday" "Tuesday" "Wednesday" "Thursday" "Friday"; do
 
 	# Open the links in Microsoft Edge
 	/mnt/c/Program\ Files\ \(x86\)/Microsoft/Edge/Application/msedge.exe "$link0" "$link1" "$link2" "$link3"
-	sleep 6
-done	
+	sleep 5
+#done	
