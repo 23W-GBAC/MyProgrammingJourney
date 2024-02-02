@@ -8,7 +8,7 @@ At first I spent most of the day researching about how to open links from the Ub
 
 	Open Website Terminal
 	December 12, 2023
-	You
+> 	You
 	(...)with my terminal.
 	ChatGPT
 	Sure, what would you like to do in your terminal?
@@ -49,9 +49,7 @@ At first I spent most of the day researching about how to open links from the Ub
 	ChatGPT
 	Certainly! If you're experiencing an issue with alternatives, you can set the default browser using the update-alternatives command directly. For example, if you want to set Firefox as the default browser, use:
 
-	bash
-	Copy code
-	sudo update-alternatives --set x-www-browser /usr/bin/firefox
+		sudo update-alternatives --set x-www-browser /usr/bin/firefox
 	Replace /usr/bin/firefox with the path to the executable of your preferred browser. After setting this, the "xdg-open" command should use your specified default browser to open URLs.
 
 	You
@@ -59,9 +57,7 @@ At first I spent most of the day researching about how to open links from the Ub
 	ChatGPT
 	If you want to set Microsoft Edge as the default browser, use the following command:
 
-	bash
-	Copy code
-	sudo update-alternatives --set x-www-browser /usr/bin/microsoft-edge
+		sudo update-alternatives --set x-www-browser /usr/bin/microsoft-edge
 	Make sure to replace /usr/bin/microsoft-edge with the correct path to the Microsoft Edge executable on your system. After running this command, "xdg-open" should use Microsoft Edge as the default browser.
 
 	You
@@ -69,9 +65,7 @@ At first I spent most of the day researching about how to open links from the Ub
 	ChatGPT
 	To find the path for Microsoft Edge, you can use the "which" command in the terminal. Try this:
 
-	bash
-	Copy code
-	which microsoft-edge
+		which microsoft-edge
 	This should display the full path to the Microsoft Edge executable. Once you have the path, you can use it in the "sudo update-alternatives" command to set it as the default browser.
 
 	You
@@ -83,9 +77,7 @@ At first I spent most of the day researching about how to open links from the Ub
 
 	Once you find the path, use it in the "sudo update-alternatives" command:
 
-	bash
-	Copy code
-	sudo update-alternatives --set x-www-browser /path/to/microsoft-edge-executable
+		sudo update-alternatives --set x-www-browser /path/to/microsoft-edge-executable
 	Replace "/path/to/microsoft-edge-executable" with the actual path you found. This should set Microsoft Edge as the default browser for "xdg-open."
 
 	You
@@ -93,25 +85,19 @@ At first I spent most of the day researching about how to open links from the Ub
 	ChatGPT
 	Sure, for Ubuntu, you can use the "update-alternatives" command to set the default web browser. Here's a general command that should work:
 
-	bash
-	Copy code
-	sudo update-alternatives --config gnome-www-browser
+		sudo update-alternatives --config gnome-www-browser
 	This will prompt you to choose the default browser from the list. After selecting your preferred browser, the "xdg-open" command should use it to open URLs.
 
 	If you don't have "gnome-www-browser," you can try:
 
-	bash
-	Copy code
-	sudo update-alternatives --config x-www-browser
+		sudo update-alternatives --config x-www-browser
 	This covers different desktop environments. Select your desired browser from the list, and it should become the default for opening URLs.
 
 	Error, no alternatives for GNOME or for XWW browser.
 	ChatGPT
 	Alright, let's try a different approach. To set the default browser in Ubuntu, you can use the update-alternatives command with the www-browser option. Try this:
 
-	bash
-	Copy code
-	sudo update-alternatives --config www-browser
+		sudo update-alternatives --config www-browser
 	This should provide you with a list of installed browsers. Choose the number corresponding to the browser you want to set as the default.
 
 	After making your selection, the "xdg-open" command should open URLs in your chosen default browser.
@@ -123,17 +109,13 @@ At first I spent most of the day researching about how to open links from the Ub
 
 	For example, to install Firefox, you can use:
 
-	bash
-	Copy code
-	sudo apt-get update
-	sudo apt-get install firefox
+		sudo apt-get update
+		sudo apt-get install firefox
 	Replace "firefox" with the name of the browser you prefer.
 
 	Once installed, run the update-alternatives command:
 
-	bash
-	Copy code
-	sudo update-alternatives --config www-browser
+		sudo update-alternatives --config www-browser
 	Follow the on-screen instructions to select your preferred browser from the list. After that, "xdg-open" should use your chosen browser to open URLs.
 
 	You
@@ -151,14 +133,10 @@ At first I spent most of the day researching about how to open links from the Ub
 	Certainly! To set Google Chrome as the default browser using update-alternatives, follow these steps:
 
 	Install Google Chrome:
-	bash
-	Copy code
-	sudo apt-get update
-	sudo apt-get install google-chrome-stable
+		sudo apt-get update
+		sudo apt-get install google-chrome-stable
 	Set Google Chrome as the default browser:
-	bash
-	Copy code
-	sudo update-alternatives --config www-browser
+		sudo update-alternatives --config www-browser
 	This will prompt you to choose a default browser from the list. Select the number corresponding to Google Chrome, and press Enter.
 
 	After completing these steps, "xdg-open" should use Google Chrome to open URLs by default.
@@ -192,14 +170,10 @@ At first I spent most of the day researching about how to open links from the Ub
 	Certainly! To set Google Chrome as the default browser using the update-alternatives command, follow these steps:
 
 	Install Google Chrome:
-	bash
-	Copy code
-	sudo apt-get update
-	sudo apt-get install google-chrome-stable
+		sudo apt-get update
+		sudo apt-get install google-chrome-stable
 	Set Google Chrome as the default browser:
-	bash
-	Copy code
-	sudo update-alternatives --config x-www-browser
+		sudo update-alternatives --config x-www-browser
 	This will prompt you to choose a default browser from the list. Select the number corresponding to Google Chrome, and press Enter.
 
 	After completing these steps, "xdg-open" should use Google Chrome to open URLs by default.
@@ -216,9 +190,7 @@ At first I spent most of the day researching about how to open links from the Ub
 	ChatGPT
 	To check which web browsers are installed on your system, you can use the following command:
 
-	bash
-	Copy code
-	ls /usr/bin | grep -E 'firefox|chrome|chromium|opera|brave'
+		ls /usr/bin | grep -E 'firefox|chrome|chromium|opera|brave'
 	This command lists executable files in the /usr/bin directory that are associated with common browsers like Firefox, Chrome, Chromium, Opera, and Brave. If any of these browsers are installed, you should see them in the output.
 
 	You
@@ -226,9 +198,7 @@ At first I spent most of the day researching about how to open links from the Ub
 	ChatGPT
 	I'm sorry for any confusion. Let's try a different approach. You can use the ls command to list the contents of the /usr/bin directory and manually check for browsers. Try this:
 
-	bash
-	Copy code
-	ls /usr/bin | grep -i browser
+		ls /usr/bin | grep -i browser
 	This will list files in the /usr/bin directory that contain the word "browser" in their name. It should give you an idea of installed browsers on your system. If you see any, you can then set one as the default using the appropriate method for your system.
 
 	You
@@ -236,9 +206,7 @@ At first I spent most of the day researching about how to open links from the Ub
 	ChatGPT
 	Certainly! To list installed browsers or browsers associated with a sensible dash, you can use:
 
-	bash
-	Copy code
-	ls /usr/bin | grep -E 'firefox|chrome|chromium|opera|brave'
+		ls /usr/bin | grep -E 'firefox|chrome|chromium|opera|brave'
 	This will show you executable files related to common browsers like Firefox, Chrome, Chromium, Opera, and Brave. If any of these browsers or sensible dash browsers are installed, you should see them in the output.
 
 	You
@@ -252,15 +220,11 @@ At first I spent most of the day researching about how to open links from the Ub
 
 	If you haven't installed a browser yet, you'll need to install one. Common choices include Firefox, Chrome, Chromium, Opera, or Brave. You can install Firefox, for example, with:
 
-	bash
-	Copy code
-	sudo apt-get update
-	sudo apt-get install firefox
+		sudo apt-get update
+		sudo apt-get install firefox
 	After installation, you can set it as the default browser using the update-alternatives command:
 
-	bash
-	Copy code
-	sudo update-alternatives --config x-www-browser
+		sudo update-alternatives --config x-www-browser
 	Select the number corresponding to Firefox from the list and press Enter. This will set Firefox as the default browser for commands like xdg-open.
 
 	You
@@ -268,9 +232,7 @@ At first I spent most of the day researching about how to open links from the Ub
 	ChatGPT
 	Understood. If you have Chrome installed on your Windows environment but want to open links from your WSL Ubuntu environment, you can use the cmd.exe command from WSL to open the default web browser on your Windows system. Here's an example:
 
-	bash
-	Copy code
-	cmd.exe /c start chrome https://www.example.com
+		cmd.exe /c start chrome https://www.example.com
 	Replace "https://www.example.com" with the actual URL you want to open. This command will use the default web browser on your Windows system to open the specified URL.
 
 	You
@@ -278,9 +240,7 @@ At first I spent most of the day researching about how to open links from the Ub
 	ChatGPT
 	Certainly! To open a link in Microsoft Edge from WSL, you can use a similar command:
 
-	bash
-	Copy code
-	cmd.exe /c start microsoft-edge:http://www.example.com
+		cmd.exe /c start microsoft-edge:http://www.example.com
 	Replace "http://www.example.com" with the actual URL you want to open. This command uses the cmd.exe from WSL to open the specified URL in the default web browser on your Windows system, which, in this case, is Microsoft Edge.
 
 	You
@@ -295,13 +255,11 @@ At first I spent most of the day researching about how to open links from the Ub
 
 	If you find that you often want to open links with Microsoft Edge from WSL, you could create a simple alias or shell function in your WSL shell profile to make it more convenient. For example:
 
-	bash
-	Copy code
-	# Add this line to your .bashrc or .zshrc file
-	alias edge="cmd.exe /c start microsoft-edge"
+		# Add this line to your .bashrc or .zshrc file
+		alias edge="cmd.exe /c start microsoft-edge"
 
-	# Then use it like this
-	edge http://www.example.com
+		# Then use it like this
+		edge http://www.example.com
 	This way, you can just type edge followed by the URL to open it in Microsoft Edge.
 
 	ChatGPT
@@ -311,9 +269,7 @@ At first I spent most of the day researching about how to open links from the Ub
 	ChatGPT
 	Certainly! Here's the command to open a link in Microsoft Edge using cmd.exe in WSL:
 
-	bash
-	Copy code
-	cmd.exe /c start microsoft-edge:http://www.example.com
+		cmd.exe /c start microsoft-edge:http://www.example.com
 	Replace "http://www.example.com" with the actual URL you want to open. This command will use the default web browser on your Windows system, which, in this case, is Microsoft Edge, to open the specified URL.
 
 	You
@@ -327,49 +283,43 @@ At first I spent most of the day researching about how to open links from the Ub
 	To automate opening specific links on Microsoft Edge depending on the day of the week, you can create a simple script in your WSL environment. Here's a basic example using a Bash script:
 
 	Open your preferred text editor (e.g., nano or vim) in WSL:
-	bash
-	Copy code
-	nano open_links.sh
+		nano open_links.sh
 	Add the following script:
-	bash
-	Copy code
-	#!/bin/bash
+		#!/bin/bash
 
-	# Get the current day of the week
-	day=$(date +%A)
+		# Get the current day of the week
+		day=$(date +%A)
 
-	# Define links based on the day
-	case $day in
-	  "Monday")
-	    link="http://www.mondaylink.com"
-	    ;;
-	  "Tuesday")
-	    link="http://www.tuesdaylink.com"
-	    ;;
-	  "Wednesday")
-	    link="http://www.wednesdaylink.com"
-	    ;;
-	  "Thursday")
-	    link="http://www.thursdaylink.com"
-	    ;;
-	  "Friday")
-	    link="http://www.fridaylink.com"
-	    ;;
-	  *)
-	    echo "No specific link for today."
-	    exit 1
-	    ;;
-	esac
+		# Define links based on the day
+		case $day in
+		  "Monday")
+		    link="http://www.mondaylink.com"
+		    ;;
+		  "Tuesday")
+		    link="http://www.tuesdaylink.com"
+		    ;;
+		  "Wednesday")
+		    link="http://www.wednesdaylink.com"
+		    ;;
+		  "Thursday")
+		    link="http://www.thursdaylink.com"
+		    ;;
+		  "Friday")
+		    link="http://www.fridaylink.com"
+		    ;;
+		  *)
+		    echo "No specific link for today."
+		    exit 1
+		    ;;
+		esac
 
-	# Open the link in Microsoft Edge
-	cmd.exe /c start microsoft-edge:"$link"
+		# Open the link in Microsoft Edge
+		cmd.exe /c start microsoft-edge:"$link"
 	Save and exit the text editor.
 
 	Make the script executable:
 
-	bash
-	Copy code
-	chmod +x open_links.sh
+		chmod +x open_links.sh
 	Now, when you run ./open_links.sh, it will open the specific link associated with the current day in Microsoft Edge. You can customize the links and days in the script based on your preferences.
 
 	You
