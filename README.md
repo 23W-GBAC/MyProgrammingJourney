@@ -2,12 +2,14 @@
 ---
 ## 0. Intro
 ---
+
 | [1. Downloading/Installing Stuff](#1-downloading-installing-stuff) |
 |---|
 | [2. Frist steps to take (Settings)](#2-first-steps-to-take-settings) |
 | [3. I kinda get it now!](#3-i-kinda-get-it-now) |
 | [4. My first Automation Project Experience](#4-my-first-automation-project-experience) |
 | [5. The Actual Project](#5-the-actual-project) |
+
 ---
 
 ## 5. The actual Project
