@@ -8,7 +8,7 @@
 | :---: |
 | [**2. Frist steps to take (Settings)**](#2-first-steps-to-take-settings) |
 | [**3. I kinda get it now!**](#3-i-kinda-get-it-now) |
-| [**4. My first Automation Project Experience**](#4-my-first-automation-project-experience) |
+| [**4. My first Automation Experience**](#4-my-first-automation-experience) |
 | [**5. The Actual Project**](#5-the-actual-project) |
 
 ---
@@ -73,7 +73,7 @@ Also, I recently added a loop function in order to test the code and links regar
 		sleep 6
 	done
 
-# 4. My first Automation Project Experience
+# 4. My first Automation Experience
 
 At first I spent most of the day researching about how to open links from the Ubuntu Terminal. I found some comands (like "xdg-open") that would help me but I needed to do something extra (I think it wzs asking me to set up a deafault browser), which I felt like I was complicationg myself and I didn't want to do that, I kept thinking it needed to be very simple. And by the end of the day, I decided to take a break, I ate some food and continued on my project. I then relize that I hadn't tried ChatGPT, so I did. The follwing is the "conversation" I had with ChatGPT about my automation project:
 
