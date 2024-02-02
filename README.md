@@ -41,9 +41,7 @@ At first I spent most of the day researching about how to open links from the Ub
 	ChatGPT
 	Use the following command:
 
-	bash
-	Copy code
-	sudo update-alternatives --config x-www-browser
+		sudo update-alternatives --config x-www-browser
 	This will prompt you to select the default browser from the list. Once set, you should be able to use the "xdg-open" command without specifying a method, and it will open in your default browser.
 
 	You
@@ -379,43 +377,41 @@ At first I spent most of the day researching about how to open links from the Ub
 	ChatGPT
 	Certainly! Here's an updated script with two links for each day:
 
-	bash
-	Copy code
-	#!/bin/bash
+		#!/bin/bash
 
-	# Get the current day of the week
-	day=$(date +%A)
+		# Get the current day of the week
+		day=$(date +%A)
 
-	# Define links based on the day
-	case $day in
-	  "Monday")
-	    link1="http://www.mondaylink1.com"
-	    link2="http://www.mondaylink2.com"
-	    ;;
-	  "Tuesday")
-	    link1="http://www.tuesdaylink1.com"
-	    link2="http://www.tuesdaylink2.com"
-	    ;;
-	  "Wednesday")
-	    link1="http://www.wednesdaylink1.com"
-	    link2="http://www.wednesdaylink2.com"
-	    ;;
-	  "Thursday")
-	    link1="http://www.thursdaylink1.com"
-	    link2="http://www.thursdaylink2.com"
-	    ;;
-	  "Friday")
-	    link1="http://www.fridaylink1.com"
-	    link2="http://www.fridaylink2.com"
-	    ;;
-	  *)
-	    echo "No specific links for today."
-	    exit 1
-	    ;;
-	esac
+		# Define links based on the day
+		case $day in
+		  "Monday")
+		    link1="http://www.mondaylink1.com"
+		    link2="http://www.mondaylink2.com"
+		    ;;
+		  "Tuesday")
+		    link1="http://www.tuesdaylink1.com"
+		    link2="http://www.tuesdaylink2.com"
+		    ;;
+		  "Wednesday")
+		    link1="http://www.wednesdaylink1.com"
+		    link2="http://www.wednesdaylink2.com"
+		    ;;
+		  "Thursday")
+		    link1="http://www.thursdaylink1.com"
+		    link2="http://www.thursdaylink2.com"
+		    ;;
+		  "Friday")
+		    link1="http://www.fridaylink1.com"
+		    link2="http://www.fridaylink2.com"
+		    ;;
+		  *)
+		    echo "No specific links for today."
+		    exit 1
+		    ;;
+		esac
 
-	# Open the links in Microsoft Edge
-	cmd.exe /c start microsoft-edge:"$link1" "$link2"
+		# Open the links in Microsoft Edge
+		cmd.exe /c start microsoft-edge:"$link1" "$link2"
 	This script now has two links (link1 and link2) for each day of the week. Customize the URLs as needed for your specific use case. Save the script, make it executable with chmod +x open_links.sh, and run it with ./open_links.sh to open the specified links in Microsoft Edge.
 
 	You
