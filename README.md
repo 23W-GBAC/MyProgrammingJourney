@@ -4,7 +4,7 @@
 ---
 
 
-| [**1. Downloading/Installing Stuff**](#1-downloading-installing-stuff) |
+| [**1. Downloading/Installing Stuff**](#1-downloadinginstalling-stuff) |
 | :---: |
 | [**2. Frist steps to take (Settings)**](#2-first-steps-to-take-settings) |
 | [**3. I kinda get it now!**](#3-i-kinda-get-it-now) |
