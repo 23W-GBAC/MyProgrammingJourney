@@ -3,7 +3,6 @@
 ## 0. Intro
 ---
 
-
 | [**1. Downloading/Installing Stuff**](#1-downloadinginstalling-stuff) |
 | :---: |
 | [**2. Frist steps to take (Settings)**](#2-first-steps-to-take-settings) |
@@ -13,7 +12,7 @@
 
 ---
 
-## 5. The actual Project                                                                 [######Back to Top](#a-retroactive-journey-into-progamming)
+## 5. The actual Project
 
 After the conversation with ChatGPT, I decided to tweek my code a bit: I changed the last command that opens the links, 'cmd.exe', to just running the path to Microsoft Edge, because the command was taking parts of the links as variable definitions due to the existance of '=' signs whithin the URLs. Here is the link to the [Automation Project](display_open_todays_links.md)
 
@@ -72,6 +71,9 @@ Also, I recently added a loop function in order to test the code and links regar
 		/mnt/c/Program\ Files\ \(x86\)/Microsoft/Edge/Application/msedge.exe "$link0" "$link1" "$link2" "$link3"
 		sleep 6
 	done
+
+[Back to Top](#a-retroactive-journey-into-progamming)
+---
 
 # 4. My first Automation Experience
 
@@ -473,8 +475,27 @@ December 12, 2023
 > ChatGPT: 
 > I don't have the capability to send emails or copy the chat for you. If you want to save the conversation, you can manually copy and paste the relevant information into a text document or use your device's screenshot feature to capture the conversation. If you have any specific questions or topics you'd like to refer back to, feel free to ask, and I'll do my best to help!
 
+[Back to Top](#a-retroactive-journey-into-progamming)
+---
+
 ## 3. I kinda get it now!
+
+
+
+[Back to Top](#a-retroactive-journey-into-progamming)
+---
 
 ## 2. First steps to take (Settings)
 
+
+
+[Back to Top](#a-retroactive-journey-into-progamming)
+---
+
 ## 1. Downloading/Installing stuff
+
+
+
+[Back to Top](#a-retroactive-journey-into-progamming)
+---
+
