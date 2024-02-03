@@ -2,9 +2,9 @@
 
 ---	
 
-[Back to The Actual Project](blog_content/6-the-actual-project.md)
+[Back to The Actual Project](MyProgrammingJourneyBlog/blog_content/6-the-actual-project.md)
 
-[Back to Topics](README.md)
+[Back to Topics](MyProgrammingJourneyBlog/README.md)
 
 	#!/bin/bash
 
@@ -59,6 +59,6 @@
 		sleep 5
 	#done
 
-[Back to The Actual Project](blog_content/6-the-actual-project.md)
+[Back to The Actual Project](MyProgrammingJourneyBlog/blog_content/6-the-actual-project.md)
 
-[Back to Topics](README.md)	
+[Back to Topics](MyProgrammingJourneyBlog/README.md)	
