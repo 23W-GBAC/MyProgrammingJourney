@@ -13,7 +13,7 @@
 
 ---
 
-## 5. The actual Project
+## 5. The actual Project                                                                 [######Back to Top](#a-retroactive-journey-into-progamming)
 
 After the conversation with ChatGPT, I decided to tweek my code a bit: I changed the last command that opens the links, 'cmd.exe', to just running the path to Microsoft Edge, because the command was taking parts of the links as variable definitions due to the existance of '=' signs whithin the URLs. Here is the link to the [Automation Project](display_open_todays_links.md)
 
