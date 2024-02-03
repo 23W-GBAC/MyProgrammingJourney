@@ -12,7 +12,7 @@ With that being said, I thank you and leave you to it, enjoy...
 
 The table below will help you navigate the different topics of my blog. The structure of the table is "upside down" (I wanted to keep that blog-type vibe) the purpose is to show the audience what I'm currently working on and display the most recent posts, also, it is easier for me to just keep adding updates at the top of the list and edit accordingly.
 
-| **Topics** |
+| Topics |
 | :---: |
 | [**6. The Actual Project**](blog_content/6-the-actual-project.md) |
 | [**5. My First Automation Experience**](blog_content/5-my-first-automation-experience.md) |
