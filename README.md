@@ -1,18 +1,25 @@
 # A "Retroactive" Journey Into Progamming
 ---
 ## 0. Intro
+
+Hello, my name is Juan Pablo Herrrera Upegui, a student of Health Informatics at ECRI. This is a blog/project for GBAC class, it contains information about my experience and my description of the first steps to take as a beginner programmer. It also shows my idea regarding an automation project, as well as, the planning and the execution of it.
+The structure of the blog is "upside down" (but I think all blogs have that structure, anyway) the purpose is to show the audience what I'm currently working on and display the most recent posts, also, it is easier for me to just keep adding updates at the top of the blog and edit accordingly.
+The idea is to portray a relatable blog as an educational tool because, in my experience, I've found that I tend to learn better and easier when I am explaining a topic to a peer (makes me more secure of my knowledge) or there is an analogy involved when someone explains something to me. There is a saying I've heard: 'When one teaches, two learn!', which is something that I truly believe in.
+With that being said, I thank you and leave you to it, enjoy...
+
 ---
 
-| [**1. Downloading/Installing Stuff**](#1-downloadinginstalling-stuff) |
+| **Topics** |
 | :---: |
-| [**2. Frist steps to take (Settings)**](#2-first-steps-to-take-settings) |
+| [**6. The Actual Project**](#6-the-actual-project) |
+| [**5. My First Automation Experience**](#5-my-first-automation-experience) |
+| [**4. My Idea**](#4-my-idea) |
 | [**3. I kinda get it now!**](#3-i-kinda-get-it-now) |
-| [**4. My first Automation Experience**](#4-my-first-automation-experience) |
-| [**5. The Actual Project**](#5-the-actual-project) |
-
+| [**2. Frist steps to take (Settings)**](#2-first-steps-to-take-settings) |
+| [**1. Downloading/Installing Stuff**](#1-downloadinginstalling-stuff) |
 ---
 
-## 5. The actual Project
+## 6. The Actual Project
 
 After the conversation with ChatGPT, I decided to tweek my code a bit: I changed the last command that opens the links, 'cmd.exe', to just running the path to Microsoft Edge, because the command was taking parts of the links as variable definitions due to the existance of '=' signs whithin the URLs. Here is the link to the [Automation Project](display_open_todays_links.md)
 
@@ -75,7 +82,7 @@ Also, I recently added a loop function in order to test the code and links regar
 [Back to Top](#a-retroactive-journey-into-progamming)
 ---
 
-# 4. My first Automation Experience
+# 5. My First Automation Experience
 
 At first I spent most of the day researching about how to open links from the Ubuntu Terminal. I found some comands (like "xdg-open") that would help me but I needed to do something extra (I think it wzs asking me to set up a deafault browser), which I felt like I was complicationg myself and I didn't want to do that, I kept thinking it needed to be very simple. And by the end of the day, I decided to take a break, I ate some food and continued on my project. I then relize that I hadn't tried ChatGPT, so I did. The follwing is the "conversation" I had with ChatGPT about my automation project:
 
@@ -474,6 +481,13 @@ December 12, 2023
 
 > ChatGPT: 
 > I don't have the capability to send emails or copy the chat for you. If you want to save the conversation, you can manually copy and paste the relevant information into a text document or use your device's screenshot feature to capture the conversation. If you have any specific questions or topics you'd like to refer back to, feel free to ask, and I'll do my best to help!
+
+[Back to Top](#a-retroactive-journey-into-progamming)
+---
+
+## 4. My idea
+
+
 
 [Back to Top](#a-retroactive-journey-into-progamming)
 ---
