@@ -12,7 +12,7 @@ With that being said, I thank you and leave you to it, enjoy...
 
 ---
 
-| **Topics** |
+| ## Topics |
 | :---: |
 | [**6. The Actual Project**](#6-the-actual-project) |
 | [**5. My First Automation Experience**](#5-my-first-automation-experience) |
