@@ -14,12 +14,12 @@ With that being said, I thank you and leave you to it, enjoy...
 
 | **Topics** |
 | :---: |
-| [**6. The Actual Project**](6-the-actual-project.md) |
-| [**5. My First Automation Experience**](5-my-first-automation-experience.md) |
-| [**4. My Idea**](4-my-idea.md) |
-| [**3. I kinda get it now!**](3-i-kinda-get-it-now.md) |
-| [**2. Frist steps to take (Settings)**](2-first-steps-to-take-settings.md) |
-| [**1. Downloading/Installing Stuff**](1-downloadinginstalling-stuff.md) |
+| [**6. The Actual Project**](blog_content/6-the-actual-project.md) |
+| [**5. My First Automation Experience**](blog_content/5-my-first-automation-experience.md) |
+| [**4. My Idea**](blog_content/4-my-idea.md) |
+| [**3. I kinda get it now!**](blog_content/3-i-kinda-get-it-now.md) |
+| [**2. Frist steps to take (Settings)**](blog_content/2-first-steps-to-take-settings.md) |
+| [**1. Downloading/Installing Stuff**](blog_content/1-downloadinginstalling-stuff.md) |
 
 ---
 
