@@ -25,33 +25,41 @@ With that being said, I thank you and leave you to it, enjoy...
 
 ## 4. My idea
 
+[Back to Topics](../README.md)
 
 
-[Back to Topics](README.md)
+
+[Back to Topics](../README.md)
 
 ---
 
 ## 3. I kinda get it now!
 
+[Back to Topics](../README.md)
 
 
-[Back to Topics](README.md)
+
+[Back to Topics](../README.md)
 
 ---
 
 ## 2. First steps to take (Settings)
 
+[Back to Topics](../README.md)
 
 
-[Back to Topics](README.md)
+
+[Back to Topics](../README.md)
 
 ---
 
 ## 1. Downloading/Installing stuff
 
+[Back to Topics](../README.md)
 
 
-[Back to Topics](README.md)
+
+[Back to Topics](../README.md)
 
 ---
 

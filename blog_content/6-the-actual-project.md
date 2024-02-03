@@ -1,6 +1,6 @@
 ## 6. The Actual Project
 
-[Back to Topics](README.md)
+[Back to Topics](../README.md)
 
 After the conversation with ChatGPT, I decided to tweek my code a bit: I changed the last command that opens the links, 'cmd.exe', to just running the path to Microsoft Edge, because the command was taking parts of the links as variable definitions due to the existance of '=' signs whithin the URLs. Here is the link to the [Automation Project](../automation_project_code/display_open_todays_links.md)
 
@@ -60,4 +60,4 @@ Also, I recently added a loop function in order to test the code and links regar
 		sleep 6
 	done
 
-[Back to Topics](README.md)
+[Back to Topics](../README.md)
