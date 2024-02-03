@@ -83,7 +83,7 @@ Also, I recently added a loop function in order to test the code and links regar
 		sleep 6
 	done
 
-[Back to Topics](readme.md)
+[Back to Topics](README.md)
 
 ---
 
@@ -91,7 +91,7 @@ Also, I recently added a loop function in order to test the code and links regar
 
 
 
-[Back to Topics](readme.md)
+[Back to Topics](README.md)
 
 ---
 
@@ -99,7 +99,7 @@ Also, I recently added a loop function in order to test the code and links regar
 
 
 
-[Back to Topics](readme.md)
+[Back to Topics](README.md)
 
 ---
 
@@ -107,7 +107,7 @@ Also, I recently added a loop function in order to test the code and links regar
 
 
 
-[Back to Topics](readme.md)
+[Back to Topics](README.md)
 
 ---
 
@@ -115,7 +115,7 @@ Also, I recently added a loop function in order to test the code and links regar
 
 
 
-[Back to Topics](readme.md)
+[Back to Topics](README.md)
 
 ---
 

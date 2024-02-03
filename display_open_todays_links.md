@@ -1,3 +1,10 @@
+## Automation Project
+
+---	
+
+[Back to The Actual Project](6-the-actual-project.md)
+[Back to Topics](README.md)
+
 	#!/bin/bash
 
 	# This script opens links of resources that I use each day. It is based on ECRI Schedule (HI-1), but manually made. Run 'chmod +x open_todays_links.sh' to make this file executable.
@@ -49,4 +56,7 @@
 		# Open the links in Microsoft Edge
 		/mnt/c/Program\ Files\ \(x86\)/Microsoft/Edge/Application/msedge.exe "$link0" "$link1" "$link2" "$link3"
 		sleep 5
-	#done	
+	#done
+
+[Back to The Actual Project](6-the-actual-project.md)
+[Back to Topics](README.md)	

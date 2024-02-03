@@ -1,5 +1,7 @@
 # 5. My First Automation Experience
 
+[Back to Topics](README.md)
+
 At first I spent most of the day researching about how to open links from the Ubuntu Terminal. I found some comands (like "xdg-open") that would help me but I needed to do something extra (I think it wzs asking me to set up a deafault browser), which I felt like I was complicationg myself and I didn't want to do that, I kept thinking it needed to be very simple. And by the end of the day, I decided to take a break, I ate some food and continued on my project. I then relize that I hadn't tried ChatGPT, so I did. The follwing is the "conversation" I had with ChatGPT about my automation project:
 
 Open Website Terminal
@@ -398,7 +400,7 @@ December 12, 2023
 > ChatGPT: 
 > I don't have the capability to send emails or copy the chat for you. If you want to save the conversation, you can manually copy and paste the relevant information into a text document or use your device's screenshot feature to capture the conversation. If you have any specific questions or topics you'd like to refer back to, feel free to ask, and I'll do my best to help!
 
-[Back to Topcis](readme.md)
+[Back to Topics](README.md)
 
 ---
 
