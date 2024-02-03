@@ -12,7 +12,7 @@ With that being said, I thank you and leave you to it, enjoy...
 
 ---
 
-| ## Topics |
+| **Topics** |
 | :---: |
 | [**6. The Actual Project**](#6-the-actual-project) |
 | [**5. My First Automation Experience**](#5-my-first-automation-experience) |
@@ -83,7 +83,8 @@ Also, I recently added a loop function in order to test the code and links regar
 		sleep 6
 	done
 
-[Back to Top](#a-retroactive-journey-into-progamming)
+[Back to Top](#topics)
+
 ---
 
 # 5. My First Automation Experience
@@ -486,28 +487,32 @@ December 12, 2023
 > ChatGPT: 
 > I don't have the capability to send emails or copy the chat for you. If you want to save the conversation, you can manually copy and paste the relevant information into a text document or use your device's screenshot feature to capture the conversation. If you have any specific questions or topics you'd like to refer back to, feel free to ask, and I'll do my best to help!
 
-[Back to Top](#a-retroactive-journey-into-progamming)
+[Back to Top](#topics)
+
 ---
 
 ## 4. My idea
 
 
 
-[Back to Top](#a-retroactive-journey-into-progamming)
+[Back to Top](#topics)
+
 ---
 
 ## 3. I kinda get it now!
 
 
 
-[Back to Top](#a-retroactive-journey-into-progamming)
+[Back to Top](#topics)
+
 ---
 
 ## 2. First steps to take (Settings)
 
 
 
-[Back to Top](#a-retroactive-journey-into-progamming)
+[Back to Top](#topics)
+
 ---
 
 ## 1. Downloading/Installing stuff
@@ -515,5 +520,6 @@ December 12, 2023
 
 
 [Back to Top](#topics)
+
 ---
 
