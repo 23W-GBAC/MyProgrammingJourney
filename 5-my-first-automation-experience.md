@@ -14,12 +14,12 @@ With that being said, I thank you and leave you to it, enjoy...
 
 | **Topics** |
 | :---: |
-| [**6. The Actual Project**](6-the-actual-project.md) |
-| [**5. My First Automation Experience**](5-my-first-automation-experience.md) |
-| [**4. My Idea**](4-my-idea.md) |
-| [**3. I kinda get it now!**](3-i-kinda-get-it-now.md) |
-| [**2. Frist steps to take (Settings)**](2-first-steps-to-take-settings.md) |
-| [**1. Downloading/Installing Stuff**](1-downloadinginstalling-stuff.md) |
+| [**6. The Actual Project**](#6-the-actual-project) |
+| [**5. My First Automation Experience**](#5-my-first-automation-experience) |
+| [**4. My Idea**](#4-my-idea) |
+| [**3. I kinda get it now!**](#3-i-kinda-get-it-now) |
+| [**2. Frist steps to take (Settings)**](#2-first-steps-to-take-settings) |
+| [**1. Downloading/Installing Stuff**](#1-downloadinginstalling-stuff) |
 
 ---
 
@@ -83,7 +83,7 @@ Also, I recently added a loop function in order to test the code and links regar
 		sleep 6
 	done
 
-[Back to Topics](readme.md)
+[Back to Top](#topics)
 
 ---
 
@@ -487,7 +487,7 @@ December 12, 2023
 > ChatGPT: 
 > I don't have the capability to send emails or copy the chat for you. If you want to save the conversation, you can manually copy and paste the relevant information into a text document or use your device's screenshot feature to capture the conversation. If you have any specific questions or topics you'd like to refer back to, feel free to ask, and I'll do my best to help!
 
-[Back to Topics](readme.md)
+[Back to Top](#topics)
 
 ---
 
@@ -495,7 +495,7 @@ December 12, 2023
 
 
 
-[Back to Topics](readme.md)
+[Back to Top](#topics)
 
 ---
 
@@ -503,7 +503,7 @@ December 12, 2023
 
 
 
-[Back to Topics](readme.md)
+[Back to Top](#topics)
 
 ---
 
@@ -511,7 +511,7 @@ December 12, 2023
 
 
 
-[Back to Topics](readme.md)
+[Back to Top](#topics)
 
 ---
 
@@ -519,7 +519,7 @@ December 12, 2023
 
 
 
-[Back to Topics](readme.md)
+[Back to Top](#topics)
 
 ---
 
