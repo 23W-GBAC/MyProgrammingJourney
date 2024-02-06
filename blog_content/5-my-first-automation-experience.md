@@ -45,8 +45,9 @@ December 12, 2023
 
 > ChatGPT: 
 > Use the following command:
-
-	sudo update-alternatives --config x-www-browser
+```bash
+sudo update-alternatives --config x-www-browser
+```
 > This will prompt you to select the default browser from the list. Once set, you should be able to use the "xdg-open" command without specifying a method, and it will open in your default browser.
 
 > You: 
@@ -54,8 +55,9 @@ December 12, 2023
 
 > ChatGPT: 
 > Certainly! If you're experiencing an issue with alternatives, you can set the default browser using the update-alternatives command directly. For example, if you want to set Firefox as the default browser, use:
-
-	sudo update-alternatives --set x-www-browser /usr/bin/firefox
+```bash
+sudo update-alternatives --set x-www-browser /usr/bin/firefox
+```
 > Replace /usr/bin/firefox with the path to the executable of your preferred browser. After setting this, the "xdg-open" command should use your specified default browser to open URLs.
 
 > You: 
@@ -63,8 +65,9 @@ December 12, 2023
 
 > ChatGPT: 
 > If you want to set Microsoft Edge as the default browser, use the following command:
-
-	sudo update-alternatives --set x-www-browser /usr/bin/microsoft-edge
+```bash
+sudo update-alternatives --set x-www-browser /usr/bin/microsoft-edge
+```
 > Make sure to replace /usr/bin/microsoft-edge with the correct path to the Microsoft Edge executable on your system. After running this command, "xdg-open" should use Microsoft Edge as the default browser.
 
 > You: 
@@ -72,8 +75,9 @@ December 12, 2023
 
 > ChatGPT: 
 > To find the path for Microsoft Edge, you can use the "which" command in the terminal. Try this:
-
-	which microsoft-edge
+```bash
+which microsoft-edge
+```
 > This should display the full path to the Microsoft Edge executable. Once you have the path, you can use it in the "sudo update-alternatives" command to set it as the default browser.
 
 > You: 
@@ -85,8 +89,9 @@ December 12, 2023
 > Check your system's application menu or launcher for Microsoft Edge, right-click on its icon, and look for an option like "Properties" or "Open file location." This should lead you to the executable's path.
 
 > Once you find the path, use it in the "sudo update-alternatives" command:
-
-	sudo update-alternatives --set x-www-browser /path/to/microsoft-edge-executable
+```bash
+sudo update-alternatives --set x-www-browser /path/to/microsoft-edge-executable
+```
 > Replace "/path/to/microsoft-edge-executable" with the actual path you found. This should set Microsoft Edge as the default browser for "xdg-open."
 
 > You: 
@@ -94,13 +99,15 @@ December 12, 2023
 
 > ChatGPT: 
 > Sure, for Ubuntu, you can use the "update-alternatives" command to set the default web browser. Here's a general command that should work:
-
-	sudo update-alternatives --config gnome-www-browser
+```bash
+sudo update-alternatives --config gnome-www-browser
+```
 > This will prompt you to choose the default browser from the list. After selecting your preferred browser, the "xdg-open" command should use it to open URLs.
 
 > If you don't have "gnome-www-browser," you can try:
-
-	sudo update-alternatives --config x-www-browser
+```bash
+sudo update-alternatives --config x-www-browser
+```
 > This covers different desktop environments. Select your desired browser from the list, and it should become the default for opening URLs.
 
 > You: 
@@ -108,8 +115,9 @@ December 12, 2023
 
 > ChatGPT: 
 > Alright, let's try a different approach. To set the default browser in Ubuntu, you can use the update-alternatives command with the www-browser option. Try this:
-
-	sudo update-alternatives --config www-browser
+```bash
+sudo update-alternatives --config www-browser
+```
 > This should provide you with a list of installed browsers. Choose the number corresponding to the browser you want to set as the default.
 
 > After making your selection, the "xdg-open" command should open URLs in your chosen default browser.
@@ -121,14 +129,16 @@ December 12, 2023
 > Certainly! Before using the update-alternatives command, make sure you have the browser you want to set as default installed on your system. If it's not installed, you can install it using the package manager.
 
 > For example, to install Firefox, you can use:
-
-	sudo apt-get update
-	sudo apt-get install firefox
+```bash
+sudo apt-get update
+sudo apt-get install firefox
+```
 > Replace "firefox" with the name of the browser you prefer.
 
 > Once installed, run the update-alternatives command:
-
-	sudo update-alternatives --config www-browser
+```bash
+sudo update-alternatives --config www-browser
+```
 > Follow the on-screen instructions to select your preferred browser from the list. After that, "xdg-open" should use your chosen browser to open URLs.
 
 > You: 
@@ -148,10 +158,14 @@ December 12, 2023
 > Certainly! To set Google Chrome as the default browser using update-alternatives, follow these steps:
 
 > Install Google Chrome:
-	sudo apt-get update
-	sudo apt-get install google-chrome-stable
+```bash
+sudo apt-get update
+sudo apt-get install google-chrome-stable
+```
 > Set Google Chrome as the default browser:
-	sudo update-alternatives --config www-browser
+```bash
+sudo update-alternatives --config www-browser
+```
 > This will prompt you to choose a default browser from the list. Select the number corresponding to Google Chrome, and press Enter.
 
 > After completing these steps, "xdg-open" should use Google Chrome to open URLs by default.
@@ -190,10 +204,14 @@ December 12, 2023
 > Certainly! To set Google Chrome as the default browser using the update-alternatives command, follow these steps:
 
 > Install Google Chrome:
-	sudo apt-get update
-	sudo apt-get install google-chrome-stable
+```bash
+sudo apt-get update
+sudo apt-get install google-chrome-stable
+```
 > Set Google Chrome as the default browser:
-	sudo update-alternatives --config x-www-browser
+```bash
+sudo update-alternatives --config x-www-browser
+```
 > This will prompt you to choose a default browser from the list. Select the number corresponding to Google Chrome, and press Enter.
 
 > After completing these steps, "xdg-open" should use Google Chrome to open URLs by default.
@@ -211,8 +229,9 @@ December 12, 2023
 
 > ChatGPT: 
 > To check which web browsers are installed on your system, you can use the following command:
-
-	ls /usr/bin | grep -E 'firefox|chrome|chromium|opera|brave'
+```bash
+ls /usr/bin | grep -E 'firefox|chrome|chromium|opera|brave'
+```
 > This command lists executable files in the /usr/bin directory that are associated with common browsers like Firefox, Chrome, Chromium, Opera, and Brave. If any of these browsers are installed, you should see them in the output.
 
 > You: 
@@ -220,8 +239,9 @@ December 12, 2023
 
 > ChatGPT: 
 > I'm sorry for any confusion. Let's try a different approach. You can use the ls command to list the contents of the /usr/bin directory and manually check for browsers. Try this:
-
-	ls /usr/bin | grep -i browser
+```bash
+ls /usr/bin | grep -i browser
+```
 > This will list files in the /usr/bin directory that contain the word "browser" in their name. It should give you an idea of installed browsers on your system. If you see any, you can then set one as the default using the appropriate method for your system.
 
 > You: 
@@ -229,8 +249,9 @@ December 12, 2023
 
 > ChatGPT: 
 > Certainly! To list installed browsers or browsers associated with a sensible dash, you can use:
-
-	ls /usr/bin | grep -E 'firefox|chrome|chromium|opera|brave'
+```bash
+ls /usr/bin | grep -E 'firefox|chrome|chromium|opera|brave'
+```
 > This will show you executable files related to common browsers like Firefox, Chrome, Chromium, Opera, and Brave. If any of these browsers or sensible dash browsers are installed, you should see them in the output.
 
 > You: 
@@ -240,12 +261,14 @@ December 12, 2023
 > The entries "info-browser" and "sensible-browser" are not specific browsers but rather alternatives or commands that can be linked to the default web browser.
 
 > If you haven't installed a browser yet, you'll need to install one. Common choices include Firefox, Chrome, Chromium, Opera, or Brave. You can install Firefox, for example, with:
-
-	sudo apt-get update
-	sudo apt-get install firefox
+```bash
+sudo apt-get update
+sudo apt-get install firefox
+```
 > After installation, you can set it as the default browser using the update-alternatives command:
-
-	sudo update-alternatives --config x-www-browser
+```bash
+sudo update-alternatives --config x-www-browser
+```
 > Select the number corresponding to Firefox from the list and press Enter. This will set Firefox as the default browser for commands like xdg-open.
 
 > You: 
@@ -253,8 +276,9 @@ December 12, 2023
 
 > ChatGPT: 
 > Understood. If you have Chrome installed on your Windows environment but want to open links from your WSL Ubuntu environment, you can use the cmd.exe command from WSL to open the default web browser on your Windows system. Here's an example:
-
-	cmd.exe /c start chrome https://www.example.com
+```bash
+cmd.exe /c start chrome https://www.example.com
+```
 > Replace "https://www.example.com" with the actual URL you want to open. This command will use the default web browser on your Windows system to open the specified URL.
 
 > You: 
@@ -262,8 +286,9 @@ December 12, 2023
 
 > ChatGPT: 
 > Certainly! To open a link in Microsoft Edge from WSL, you can use a similar command:
-
-	cmd.exe /c start microsoft-edge:http://www.example.com
+```bash
+cmd.exe /c start microsoft-edge:http://www.example.com
+```
 > Replace "http://www.example.com" with the actual URL you want to open. This command uses the cmd.exe from WSL to open the specified URL in the default web browser on your Windows system, which, in this case, is Microsoft Edge.
 
 > You: 
@@ -279,14 +304,14 @@ December 12, 2023
 > Unfortunately, the cmd.exe command itself doesn't have a built-in alias or default for Microsoft Edge like it does for some other applications. You generally need to specify the browser in the command.
 
 > If you find that you often want to open links with Microsoft Edge from WSL, you could create a simple alias or shell function in your WSL shell profile to make it more convenient. For example:
+```bash
+# Add this line to your .bashrc or .zshrc file
+alias edge="cmd.exe /c start microsoft-edge"
 
-	# Add this line to your .bashrc or .zshrc file
-	alias edge="cmd.exe /c start microsoft-edge"
-
-	# Then use it like this
-	edge http://www.example.com
+# Then use it like this
+edge http://www.example.com
+```
 > This way, you can just type edge followed by the URL to open it in Microsoft Edge.
-
 
 > ChatGPT: 
 > Adjust the file names (.bashrc or .zshrc) 
@@ -295,8 +320,9 @@ December 12, 2023
 
 > ChatGPT: 
 > Certainly! Here's the command to open a link in Microsoft Edge using cmd.exe in WSL:
-
-	cmd.exe /c start microsoft-edge:http://www.example.com
+```bash
+cmd.exe /c start microsoft-edge:http://www.example.com
+```
 > Replace "http://www.example.com" with the actual URL you want to open. This command will use the default web browser on your Windows system, which, in this case, is Microsoft Edge, to open the specified URL.
 
 > You: 
