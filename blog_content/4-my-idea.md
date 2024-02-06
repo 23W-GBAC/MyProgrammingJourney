@@ -10,6 +10,6 @@ On another note, I know that I have to define a variable 'day' with the current 
 
 The purpose is to save time, even though I have bookmarks of my iLearn platform and student email, I still have to look for the correct ilearn class platform everytime I log in, and some courses, like GBAC, don't use the ilearn platform, so, this is a way I can adapt to the situation.
 
-For now, this is just my thought, it's basically the idea after a quick brainstorming process, and I have not actually started writing any code, I really like this idea, because I will be able to use it each semester by assigning different codes within the code... 
+For now, this is just my thought, it's basically the idea after a quick brainstorming process, and I have not actually started writing any code, I really like this idea, because I will be able to use it each semester by assigning different links within the code... 
 
 [Back to Topics](../README.md)
