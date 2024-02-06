@@ -1,5 +1,3 @@
-# A "Retroactive" Journey Into Progamming
----
 ## 0. Intro
 
 Hello, my name is Juan Pablo Herrrera Upegui, a student of Health Informatics at ECRI. This is a blog/project for GBAC class, it contains information about my experience and my description of the first steps to take as a beginner programmer. It also shows my idea regarding an automation project, as well as, the planning and the execution of it.
