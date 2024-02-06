@@ -7,6 +7,8 @@ The intention is to portray a relatable blog as an educational tool, because, in
 With that being said, I thank you and leave you to it, enjoy...
 
 ---
+# Table of Content Topics
+
 The table below will help you navigate the different topics of my blog. The structure of the table is "upside down" (I wanted to keep that blog-type vibe) the purpose is to show the audience what I'm currently working on and display the most recent posts, also, it is easier for me to just keep adding updates at the top of the list and edit accordingly.
 
 | Topics |

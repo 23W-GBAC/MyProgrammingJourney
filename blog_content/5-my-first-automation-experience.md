@@ -4,8 +4,10 @@
 
 At first I spent most of the day researching about how to open links from the Ubuntu Terminal. I found some comands (like "xdg-open") that would help me but I needed to do something extra (I think it was asking me to install a browser and set it up as deafault), which sounded complicated and I didn't want to do that, I kept thinking it needed to be much more simpler. And by the end of the day, I decided to take a break, I ate some food and continued on my project. I then relized that I hadn't tried ChatGPT, so I did. The follwing is the "conversation" I had with ChatGPT about how to open links from the terminal:
 
-Open Website Terminal
+Open Website with Terminal
+
 December 12, 2023
+
 > You: 
 > (...)with my terminal.
 
