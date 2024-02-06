@@ -2,7 +2,7 @@
 
 [Back to Topics](../README.md)
 
-At first I spent most of the day researching about how to open links from the Ubuntu Terminal. I found some comands (like "xdg-open") that would help me but I needed to do something extra (I think it wzs asking me to set up a deafault browser), which I felt like I was complicationg myself and I didn't want to do that, I kept thinking it needed to be very simple. And by the end of the day, I decided to take a break, I ate some food and continued on my project. I then relize that I hadn't tried ChatGPT, so I did. The follwing is the "conversation" I had with ChatGPT about my automation project:
+At first I spent most of the day researching about how to open links from the Ubuntu Terminal. I found some comands (like "xdg-open") that would help me but I needed to do something extra (I think it was asking me to install a browser and set it up as deafault), which sounded complicated and I didn't want to do that, I kept thinking it needed to be much more simpler. And by the end of the day, I decided to take a break, I ate some food and continued on my project. I then relized that I hadn't tried ChatGPT, so I did. The follwing is the "conversation" I had with ChatGPT about how to open links from the terminal:
 
 Open Website Terminal
 December 12, 2023
@@ -304,100 +304,5 @@ December 12, 2023
 
 > ChatGPT: 
 > Yes, that's correct! The cmd.exe command is a general method for opening links using the default web browser on your Windows system. It should work with any valid URL, allowing you to open links in your default browser, whether it's Microsoft Edge or another browser.
-
-> You: 
-> I also want to automize this command of cmd.exe by I want to, depending on if it's Monday, Tuesday, Wednesday, Thursday, or Friday, I want to open certain links on Microsoft Edge. How can I do this?
-
-> ChatGPT: 
-> To automate opening specific links on Microsoft Edge depending on the day of the week, you can create a simple script in your WSL environment. Here's a basic example using a Bash script:
-
-> Open your preferred text editor (e.g., nano or vim) in WSL:
-	nano open_links.sh
-> Add the following script:
-	#!/bin/bash
-
-	# Get the current day of the week
-	day=$(date +%A)
-
-	# Define links based on the day
-	case $day in
-	  "Monday")
-	    link="http://www.mondaylink.com"
-	    ;;
-	  "Tuesday")
-	    link="http://www.tuesdaylink.com"
-	    ;;
-	  "Wednesday")
-	    link="http://www.wednesdaylink.com"
-	    ;;
-	  "Thursday")
-	    link="http://www.thursdaylink.com"
-	    ;;
-	  "Friday")
-	    link="http://www.fridaylink.com"
-	    ;;
-	  *)
-	    echo "No specific link for today."
-	    exit 1
-	    ;;
-	esac
-
-	# Open the link in Microsoft Edge
-	cmd.exe /c start microsoft-edge:"$link"
-> Save and exit the text editor.
-
-> Make the script executable:
-
-	chmod +x open_links.sh
-> Now, when you run ./open_links.sh, it will open the specific link associated with the current day in Microsoft Edge. You can customize the links and days in the script based on your preferences.
-
-> You: 
-> Can you show me the command, but with multiple links, like two links for each day?
-
-> ChatGPT: 
-> Certainly! Here's an updated script with two links for each day:
-
-	#!/bin/bash
-
-	# Get the current day of the week
-	day=$(date +%A)
-
-	# Define links based on the day
-	case $day in
-	  "Monday")
-	    link1="http://www.mondaylink1.com"
-	    link2="http://www.mondaylink2.com"
-	    ;;
-	  "Tuesday")
-	    link1="http://www.tuesdaylink1.com"
-	    link2="http://www.tuesdaylink2.com"
-	    ;;
-	  "Wednesday")
-	    link1="http://www.wednesdaylink1.com"
-	    link2="http://www.wednesdaylink2.com"
-	    ;;
-	  "Thursday")
-	    link1="http://www.thursdaylink1.com"
-	    link2="http://www.thursdaylink2.com"
-	    ;;
-	  "Friday")
-	    link1="http://www.fridaylink1.com"
-	    link2="http://www.fridaylink2.com"
-	    ;;
-	  *)
-	    echo "No specific links for today."
-	    exit 1
-	    ;;
-	esac
-
-	# Open the links in Microsoft Edge
-	cmd.exe /c start microsoft-edge:"$link1" "$link2"
-> This script now has two links (link1 and link2) for each day of the week. Customize the URLs as needed for your specific use case. Save the script, make it executable with chmod +x open_links.sh, and run it with ./open_links.sh to open the specified links in Microsoft Edge.
-
-> You: 
-> Could you copy this chat and send it to my email?
-
-> ChatGPT: 
-> I don't have the capability to send emails or copy the chat for you. If you want to save the conversation, you can manually copy and paste the relevant information into a text document or use your device's screenshot feature to capture the conversation. If you have any specific questions or topics you'd like to refer back to, feel free to ask, and I'll do my best to help!
 
 [Back to Topics](../README.md)
