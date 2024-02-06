@@ -14,7 +14,7 @@ The table below will help you navigate the different topics of my blog. The stru
 | :---: |
 | [**8. Not a bad idea to test it somehow**](blog_content/8-not-a-bad-idea-to-test-it-somehow.md) |
 | [**7. The Actual Project**](automation_project_code/display_open_todays_links.md) |
-| [**6. Finally!**](blog_content/6-fianlly.md) |
+| [**6. Finally!**](blog_content/6-finally.md) |
 | [**5. My First Automation Experience**](blog_content/5-my-first-automation-experience.md) |
 | [**4. My Idea**](blog_content/4-my-idea.md) |
 | [**3. I kinda get it now!**](blog_content/3-i-kinda-get-it-now.md) |
