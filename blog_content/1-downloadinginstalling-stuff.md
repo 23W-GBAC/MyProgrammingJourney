@@ -6,7 +6,7 @@ This is basically a Beginner's Guide to Downloading and Installing Ubuntu on Win
 
 For those looking to explore the Linux environment without the need for a dedicated machine, the Windows Subsystem for Linux (WSL) provides a seamless integration of Linux distributions within a Windows environment. In this guide, we'll walk you through the process of downloading and installing Ubuntu on your Windows computer using WSL.
 
-##Step 1: Ensure WSL is Enabled
+## Step 1: Ensure WSL is Enabled
 
 Before you can install Ubuntu, you need to make sure that WSL is enabled on your Windows machine. Follow these steps:
 
@@ -55,7 +55,7 @@ sudo apt install curl
 ```
 These are the tools I installed, and you can install other tools based on your preferences and requirements.
 
-##Conclusion:
+## Conclusion:
 
 With WSL, you can seamlessly run Ubuntu on your Windows computer, providing a powerful development environment. In the next part of this series, we'll delve into setting up Ubuntu and customizing your environment to suit your needs. Stay tuned for the continuation of this guide!
 
