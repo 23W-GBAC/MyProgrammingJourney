@@ -1,6 +1,6 @@
 # 6. Finally!
 ---
-[Back to Topics](../README.md)
+[Back to Topics](../README.md#table-of-content-topics)
 
 Now that I know the right command, I proceed with the structure of the code, I know I can use the 'if, elif, else' commands for this task code, in my mind I've been picturing the 'cmd.exe' command  opening a different link after each 'elif' condition, but I just asked ChatGPT for a solution. It surprised me with this 'case' command that I didn't know about, which comes very handy with what I'm trying to do. Something else that I didn't realize is to just assign variables to the links and have only one 'cmd.exe' command at the end of the code, opening the variables; which makes a lot of sense because my idea would be repetitive and I'm trying to automate a task.
 
@@ -113,4 +113,4 @@ cmd.exe /c start microsoft-edge:"$link1" "$link2"
 > ChatGPT:
 > I don't have the capability to send emails or copy the chat for you. If you want to save the conversation, you can manually copy and paste the relevant information into a text document or use your device's screenshot feature to capture the conversation. If you have any specific questions or topics you'd like to refer back to, feel free to ask, and I'll do my best to help!
 
-[Back to Topics](../README.md)
+[Back to Topics](../README.md#table-of-content-topics)

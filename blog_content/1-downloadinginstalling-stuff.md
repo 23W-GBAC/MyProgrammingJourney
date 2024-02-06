@@ -1,6 +1,6 @@
 # 1. Downloading/Installing stuff
 ---
-[Back to Topics](../README.md)
+[Back to Topics](../README.md#table-of-content-topics)
 
 This is basically a Beginner's Guide to Downloading and Installing Ubuntu on Windows with WSL
 
@@ -59,4 +59,4 @@ These are the tools I installed, and you can install other tools based on your p
 
 With WSL, you can seamlessly run Ubuntu on your Windows computer, providing a powerful development environment. In the next part of this series, we'll delve into setting up Ubuntu and customizing your environment to suit your needs. Stay tuned for the continuation of this guide!
 
-[Back to Topics](../README.md)
+[Back to Topics](../README.md#table-of-content-topics)

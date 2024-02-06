@@ -1,6 +1,6 @@
 # 2. First steps to take (Settings)
 ---
-[Back to Topics](../README.md)
+[Back to Topics](../README.md#table-of-content-topics)
 
 Setting up your development environment is a crucial step towards enhancing productivity and ensuring a seamless workflow. In this blog post, we'll guide you through the process of setting up Ubuntu on the Windows Subsystem for Linux (WSL) and configuring the Zsh shell with Oh My Zsh for a more efficient and personalized experience.
 
@@ -52,4 +52,4 @@ Finally, we update the system packages to ensure that all installed software and
 ## Conclusion:
 By following these steps, you have successfully set up Ubuntu with Zsh and configured it to meet your development needs. This optimized environment, coupled with Oh My Zsh and additional plugins, provides a feature-rich and visually pleasing shell experience for your daily workflow. Feel free to explore further customization options and plugins to tailor the environment to your preferences. Happy coding!
 
-[Back to Topics](../README.md)
+[Back to Topics](../README.md#table-of-content-topics)

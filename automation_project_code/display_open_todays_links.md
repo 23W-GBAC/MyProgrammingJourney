@@ -4,7 +4,8 @@
 
 After the last conversation with ChatGPT, I decided to tweak my code a bit: I changed the last command that opens the links, 'cmd.exe', to just running the path to Microsoft Edge, because the command was taking parts of the links as variable definitions due to the existence of '=' signs within the URLs, here is the finished product so far.
 
-(This is a .md file, to see the 'raw content' version of my code, I recommend either copying and pasting the following link or simply clicking on it: [https://raw.githubusercontent.com/23W-GBAC/MyProgrammingJourneyBlog/main/automation_project_code/open_todays_links.sh](https://raw.githubusercontent.com/23W-GBAC/MyProgrammingJourneyBlog/main/automation_project_code/open_todays_links.sh))
+(This is a .md file, to see the 'raw content' version of my code, I recommend either copying and pasting the following link or simply clicking on it: [https://raw.githubusercontent.com/23W-GBAC/MyProgrammingJourneyBlog/\
+main/automation_project_code/open_todays_links.sh](https://raw.githubusercontent.com/23W-GBAC/MyProgrammingJourneyBlog/main/automation_project_code/open_todays_links.sh))
 
 ```bash
 

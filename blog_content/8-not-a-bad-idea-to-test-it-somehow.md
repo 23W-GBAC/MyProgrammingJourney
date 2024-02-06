@@ -1,6 +1,6 @@
 # 8. Not a bad idea to test it somehow
 ---
-[Back to Topics](../README.md)
+[Back to Topics](../README.md#table-of-content-topics)
 
 I recently added what is basically a 'for' loop function in order to test the code and links regardless of the day, here is that code:
 ```bash
@@ -57,4 +57,4 @@ for day in "Monday" "Tuesday" "Wednesday" "Thursday" "Friday"; do
 done
 ```
 
-[Back to Topics](../README.md)
+[Back to Topics](../README.md#table-of-content-topics)

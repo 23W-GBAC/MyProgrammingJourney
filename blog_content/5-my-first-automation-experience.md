@@ -1,6 +1,6 @@
 # 5. My First Automation Experience
 ---
-[Back to Topics](../README.md)
+[Back to Topics](../README.md#table-of-content-topics)
 
 At first I spent most of the day researching about how to open links from the Ubuntu Terminal. I found some comands (like "xdg-open") that would help me but I needed to do something extra (I think it was asking me to install a browser and set it up as default), which sounded complicated and I didn't want to do that, I kept thinking it needed to be much simpler. And by the end of the day, I decided to take a break, I ate some food and continued on my project. I then realized that I hadn't tried ChatGPT, so I did. The following is the "conversation" I had with ChatGPT about how to open links from the terminal:
 
@@ -335,4 +335,4 @@ cmd.exe /c start microsoft-edge:http://www.example.com
 > ChatGPT: 
 > Yes, that's correct! The cmd.exe command is a general method for opening links using the default web browser on your Windows system. It should work with any valid URL, allowing you to open links in your default browser, whether it's Microsoft Edge or another browser.
 
-[Back to Topics](../README.md)
+[Back to Topics](../README.md#table-of-content-topics)

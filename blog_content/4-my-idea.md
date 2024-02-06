@@ -1,6 +1,6 @@
 # 4. My Automation Idea
 ---
-[Back to Topics](../README.md)
+[Back to Topics](../README.md#table-of-content-topics)
 
 My idea for the project is to design a code that helps me automate the process of opening web links for a particular day of the week, I like to be very organized and I like following tasks on a schedule and found it appropriate to let a code do the same for me.
 
@@ -12,4 +12,4 @@ The purpose is to save time, even though I have bookmarks of my iLearn platform 
 
 For now, this is just my thought, it's basically the idea after a quick brainstorming process, and I have not actually started writing any code, I really like this idea, because I will be able to use it each semester by assigning different links within the code... 
 
-[Back to Topics](../README.md)
+[Back to Topics](../README.md#table-of-content-topics)
