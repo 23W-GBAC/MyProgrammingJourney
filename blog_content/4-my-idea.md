@@ -1,4 +1,4 @@
-## 4. My automation idea
+## 4. My Automation Idea
 
 [Back to Topics](../README.md)
 
