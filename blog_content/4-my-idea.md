@@ -1,5 +1,5 @@
-## 4. My Automation Idea
-
+# 4. My Automation Idea
+---
 [Back to Topics](../README.md)
 
 My idea for the project is to design a code that helps me automate the process of opening web links for a particular day of the week, I like to be very organized and I like following tasks on a schedule and found it appropriate to let a code do the same for me.

@@ -1,5 +1,5 @@
 # 6. Finally!
-
+---
 [Back to Topics](../README.md)
 
 Now that I know the right command, I proceed with the structure of the code, I know I can use the 'if, elif, else' commands for this task code, in my mind I've been picturing the 'cmd.exe' command  openning a different link after each 'elif' condition, but I just asked ChatGPT for a solution. It surprised me with this 'case' command that I didn't know about, which comes very handy to what I'm trying to do. Something else that I didn't realize is to just assign variables to the links and have only one 'cmd.exe' command at the end of the code, openning the variables; which makes a lot of sense because my idea would be repetitive and I'm trying to automate a task.
@@ -11,10 +11,13 @@ Now that I know the right command, I proceed with the structure of the code, I k
 > To automate opening specific links on Microsoft Edge depending on the day of the week, you can create a simple script in your WSL environment. Here's a basic example using a Bash script:
 
 > Open your preferred text editor (e.g., nano or vim) in WSL:
+
 ```bash
 nano open_links.sh
 ```
+
 > Add the following script:
+
 ```bash
 #!/bin/bash
 
@@ -47,12 +50,15 @@ esac
 # Open the link in Microsoft Edge
 cmd.exe /c start microsoft-edge:"$link"
 ```
+
 > Save and exit the text editor.
 
 > Make the script executable:
+
 ```bash
 chmod +x open_links.sh
 ```
+
 > Now, when you run ./open_links.sh, it will open the specific link associated with the current day in Microsoft Edge. You can customize the links and days in the script based on your preferences.
 
 > You:
@@ -60,6 +66,7 @@ chmod +x open_links.sh
 
 > ChatGPT:
 > Certainly! Here's an updated script with two links for each day:
+
 ```bash
 #!/bin/bash
 
@@ -97,6 +104,7 @@ esac
 # Open the links in Microsoft Edge
 cmd.exe /c start microsoft-edge:"$link1" "$link2"
 ```
+
 > This script now has two links (link1 and link2) for each day of the week. Customize the URLs as needed for your specific use case. Save the script, make it executable with chmod +x open_links.sh, and run it with ./open_links.sh to open the specified links in Microsoft Edge.
 
 > You:

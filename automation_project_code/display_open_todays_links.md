@@ -1,7 +1,5 @@
 # My Automation Project
-
 ---	
-
 [Back to Topics](../README.md)
 
 After the last conversation with ChatGPT, I decided to tweek my code a bit: I changed the last command that opens the links, 'cmd.exe', to just running the path to Microsoft Edge, because the command was taking parts of the links as variable definitions due to the existance of '=' signs whithin the URLs, here is the finished product so far.

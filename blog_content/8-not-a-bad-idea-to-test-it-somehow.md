@@ -1,5 +1,5 @@
-## 8. Not a bad idea to test it somehow
-
+# 8. Not a bad idea to test it somehow
+---
 [Back to Topics](../README.md)
 
 I recently added what is basically a 'for' loop function in order to test the code and links regardless of the day, here is that code:

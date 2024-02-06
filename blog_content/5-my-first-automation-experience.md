@@ -1,5 +1,5 @@
 # 5. My First Automation Experience
-
+---
 [Back to Topics](../README.md)
 
 At first I spent most of the day researching about how to open links from the Ubuntu Terminal. I found some comands (like "xdg-open") that would help me but I needed to do something extra (I think it was asking me to install a browser and set it up as deafault), which sounded complicated and I didn't want to do that, I kept thinking it needed to be much more simpler. And by the end of the day, I decided to take a break, I ate some food and continued on my project. I then relized that I hadn't tried ChatGPT, so I did. The follwing is the "conversation" I had with ChatGPT about how to open links from the terminal:
@@ -304,6 +304,7 @@ cmd.exe /c start microsoft-edge:http://www.example.com
 > Unfortunately, the cmd.exe command itself doesn't have a built-in alias or default for Microsoft Edge like it does for some other applications. You generally need to specify the browser in the command.
 
 > If you find that you often want to open links with Microsoft Edge from WSL, you could create a simple alias or shell function in your WSL shell profile to make it more convenient. For example:
+
 ```bash
 # Add this line to your .bashrc or .zshrc file
 alias edge="cmd.exe /c start microsoft-edge"
@@ -311,6 +312,7 @@ alias edge="cmd.exe /c start microsoft-edge"
 # Then use it like this
 edge http://www.example.com
 ```
+
 > This way, you can just type edge followed by the URL to open it in Microsoft Edge.
 
 > ChatGPT: 
