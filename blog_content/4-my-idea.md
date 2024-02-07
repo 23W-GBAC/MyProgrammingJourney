@@ -2,6 +2,8 @@
 ---
 [Back to Topics](../README.md#table-of-content-topics)
 
+## Problem and possible Solution
+
 My idea for the project is to design a code that helps me automate the process of opening web links for a particular day of the week, I like to be very organized and I like following tasks on a schedule and found it appropriate to let a code do the same for me.
 
 I know that I have to find a way to open links from the terminal, I have to find a commmand that allows me to open a specific link, this is my main concern because this action is the one that it's gonna tell me if this is possible.

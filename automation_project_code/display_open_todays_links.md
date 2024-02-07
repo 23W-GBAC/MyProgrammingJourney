@@ -2,7 +2,7 @@
 ---	
 [Back to Topics](../README.md#table-of-content-topics)
 
-After the last conversation with ChatGPT, I decided to tweak my code a bit: I changed the last command that opens the links, 'cmd.exe', to just running the path to Microsoft Edge, because the command was taking parts of the links as variable definitions due to the existence of '=' signs within the URLs, here is the finished product so far.
+After the last conversation with ChatGPT, I decided to tweak my code a bit: I changed the last command that opens the links, 'cmd.exe', to just running the path to Microsoft Edge, because the command was taking parts of the links as variable definitions due to the existence of '=' signs within the URLs, only now, I realize that after doing this, I make the code very specfic to my computer; regarless, here is the finished product so far.
 
 I also understand that the code is very limited because it doesn't authenticate my credentials when logging into the links, it just opens them, but it is much better than looking for the right bookmark to click on, logging in to the ilearn platform, and then look for the correct class tab. With this code I can just run the 'sh open_todays_links.sh' command (be as specific as I want with the link inside the code) and log in with my saved
 credentials on the web browser and that's it.
@@ -66,7 +66,7 @@ day=$(date +%A)
 #done
 ```
 
-## Advantages and Disadvantages of this Script
+## Advantages and Disadvantages Analysis
 
 **Advantages:**
 - Automated Resource Access:

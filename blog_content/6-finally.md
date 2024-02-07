@@ -2,6 +2,8 @@
 ---
 [Back to Topics](../README.md#table-of-content-topics)
 
+## Something to work with
+
 Now that I know the right command, I proceed with the structure of the code, I know I can use the 'if, elif, else' commands for this task code, in my mind I've been picturing the 'cmd.exe' command  opening a different link after each 'elif' condition, but I just asked ChatGPT for a solution. It surprised me with this 'case' command that I didn't know about, which comes very handy with what I'm trying to do. Something else that I didn't realize is to just assign variables to the links and have only one 'cmd.exe' command at the end of the code, opening the variables; which makes a lot of sense because my idea would be repetitive and I'm trying to automate a task.
 
 > You:
