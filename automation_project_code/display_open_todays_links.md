@@ -69,41 +69,41 @@ day=$(date +%A)
 ## Advantages and Disadvantages of this Script
 
 **Advantages:**
-1. Automated Resource Access:
+- Automated Resource Access:
 
 Advantage: The script automates the process of opening daily resources, saving time and effort.
 Use Case: Ideal for streamlining access to frequently used links, enhancing efficiency in daily tasks.
-2. Day-Specific Resource Mapping:
+- Day-Specific Resource Mapping:
 
 Advantage: The script customizes resource links based on the current day of the week.
 Use Case: Well-suited for users with a structured routine, providing relevant links tailored to each day.
-3. Easy Script Execution:
+- Easy Script Execution:
 
 Advantage: Users can easily make the script executable with the provided 'chmod +x' command.
 Use Case: Simplifies the setup process, making it accessible to users with varying levels of technical expertise.
-4. Cross-Platform Compatibility:
+- Cross-Platform Compatibility:
 
 Advantage: The script uses Microsoft Edge to open links, ensuring compatibility with Windows environments.
 Use Case: Suitable for users who prefer or are required to use Microsoft Edge as their default browser.
 
 **Disadvantages:**
-1. Limited Customization:
+- Limited Customization:
 
 Disadvantage: The script provides a fixed set of links for each day, limiting user customization.
 Consideration: Users with diverse or evolving resource needs might find the script less adaptable.
-2. Manual Updates Required:
+- Manual Updates Required:
 
 Disadvantage: The script's resource links are manually defined, requiring updates if URLs change.
 Consideration: Users should regularly check and modify the script to ensure accuracy.
-3. Dependency on Microsoft Edge:
+- Dependency on Microsoft Edge:
 
 Disadvantage: The script relies on Microsoft Edge for link opening, excluding users who prefer other browsers.
 Consideration: A more browser-agnostic approach could enhance accessibility.
-4. Limited Error Handling:
+- Limited Error Handling:
 
 Disadvantage: The script exits without specific error handling when no links are defined for the current day.
 Consideration: Improved error messages or fallback options could enhance user experience.
-5. Single Platform Execution:
+- Single Platform Execution:
 
 Disadvantage: The script assumes a Windows environment with the specified Microsoft Edge executable path.
 Consideration: Enhancements for cross-platform compatibility would broaden its user base.
