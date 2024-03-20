@@ -16,27 +16,31 @@ day=$(date +%A)
 	# Define links based on the day
 	case $day in
 		"Monday")
- 			link1="https://ilearn.th-deg.de/course/view.php?id=17309"
-			link2=""
-			link3=""
+ 			link1="https://github.com/dashboard"
+			link2="https://github.com/dominikb1888/SWEN"
+			link3="https://teams.microsoft.com/_#/conversations/Software%20Development?threadId=19:5b3f8f78c5e244ebac8600ddba969083@thread.tacv2&ctx=channel"
+			link4="https://ilearn.th-deg.de/course/view.php?id=19238"
 			;;
 		"Tuesday")
- 			link1="https://teams.microsoft.com/_#/conversations/General%20Business%20Administration%20and%20Accounting?threadId=19:4385ddd1b9b840e0a959c2e113026483@thread.tacv2&ctx=channel"
-			link2="https://ilearn.th-deg.de/course/view.php?id=17809"
-			link3="https://github.com/dashboard"
+ 			link1="https://github.com/dashboard"
+			link2="https://github.com/dominikb1888/fohi"
+			link3="https://teams.microsoft.com/_#/conversations/Foundations%20of%20Health%20Informatics?threadId=19:6cac9a43e29c43fb857d58f012245234@thread.tacv2&ctx=channel"
+			link4=""
 			;;
 		"Wednesday")
- 			link1="https://ilearn.th-deg.de/course/view.php?id=17310"
-			link2=""
+ 			link1="https://ilearn.th-deg.de/course/view.php?id=19239"
+			link2="https://ilearn.th-deg.de/course/view.php?id=19234"
 			link3=""
+			link4=""
 			;;
 		"Thursday")
-	 		link1="https://ilearn.th-deg.de/course/view.php?id=18236"
-			link2="https://ilearn.th-deg.de/course/view.php?id=17312"
-			link3="https://jupyter.org/try-jupyter/lab/?path=notebooks%2FIntro.ipynb"
+	 		link1="https://ilearn.th-deg.de/course/view.php?id=19236"
+			link2="https://ilearn.th-deg.de/course/view.php?id=19239"
+			link3=""
+			link4=""
 			;;
 		"Friday")
- 			link1="https://ilearn.th-deg.de/course/view.php?id=17809"
+ 			link1=""
 			link2=""
 			link3=""
 			;;
@@ -47,6 +51,6 @@ day=$(date +%A)
 	esac
 
 	# Open the links in Microsoft Edge
-	/mnt/c/Program\ Files\ \(x86\)/Microsoft/Edge/Application/msedge.exe "$link0" "$link1" "$link2" "$link3"
+	/mnt/c/Program\ Files\ \(x86\)/Microsoft/Edge/Application/msedge.exe "$link0" "$link1" "$link2" "$link3" "$link4"
 	sleep 5
 #done	
